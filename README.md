@@ -1,19 +1,19 @@
 # MTUCI
 ___
 
-## [Calculator](https://github.com/gunglulqueen13/MTUCI_IT/tree/main/calculator)
+## [Calculator](https://github.com/pavelkirilichev/MTUCI/tree/main/calk)
 Calculator on HTML5, JavaScript ES9, CSS3 that performs the simplest operations on numbers. The program supports 5 mathematical operations: multiplication, division, addition and subtraction, the remainder of the division. Also it handles floating point and negative sign numbers.
 ####
 This application uses the following libraries:
  - Missing 
 
-## [Registration](https://github.com/gunglulqueen13/MTUCI_IT/tree/main/RED_LOG)
+## [Registration](https://github.com/pavelkirilichev/MTUCI/tree/main/registration)
 A web application with the ability to register and go to another page when you enter your data. All user data is entered into the sql table.
 
 This application uses the following libraries: 
 - Missing
 
-## [Simple telegram bot](https://github.com/gunglulqueen13/MTUCI_IT/tree/main/Simple-bot)
+## [SimpleBot](https://github.com/pavelkirilichev/MTUCI/tree/main/simpleBot)
 PHP vk bot that executes 5 different commands and responds to text requests.
 ####
 List of bot commands:
@@ -28,7 +28,7 @@ The text message "Хочу" in response to the welcoming message returns a link 
 This application uses the following libraries:
 - Missing
 
-
+## [TimetableBot](https://github.com/pavelkirilichev/MTUCI/tree/main/timetable)
 A vk bot on PHP that sends the BFI2102 schedule. The program automatically determines the type of the current week.
 ####
 The bot supports the following commands:
@@ -44,7 +44,7 @@ The bot displays an error message if the entered message does not belong to the 
 This application uses the following libraries:
 - Missing
 
-## [Timetable ui](https://github.com/gunglulqueen13/MTUCI_IT/tree/main/UI)
+## [Timetable ui](https://github.com/pavelkirilichev/MTUCI/tree/main/timetable_ui)
 Database visualization on PHP 7.3, HTML5, JavaScript ES9, CSS3 that uses MySQL. Displays the database in the form of a tabbed table and allows you to edit its lines, as well as add and delete the contents of the database. 
 ####
 This application uses the following libraries:
