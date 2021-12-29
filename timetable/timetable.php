@@ -83,7 +83,7 @@
                 return "Нижняя";
             }
         }
-        /*
+        
         if ($message_text == "/mtuci") {
             send_vk("https://mtuci.ru/");
         }
@@ -172,11 +172,7 @@
         }
 
         else {
-            //send_vk("Извините, я Вас не понял");
-        }
-        */
-        if ($message_text) {
-            send_vk("Технические шоколадки :)");
+            send_vk("Извините, я Вас не понял");
         }
 
         echo('ok');
