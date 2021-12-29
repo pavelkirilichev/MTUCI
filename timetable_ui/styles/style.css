@@ -1,0 +1,166 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: #1e1c26 #4b475c;
+}
+body {
+    background-color: #19113b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track {
+  background: #1e1c26;
+}
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb {
+  background-color: #4b475c;
+  border-radius: 5px;
+  border: 3px solid #1e1c26;
+}
+
+
+.timetable__main {
+    margin: 100px auto;
+    width: 750px;
+    height: 390px;
+    border-radius: 2.5%;
+    background-color: #0b0524;
+}
+.timetable__title {
+    padding-top: 10px;
+    font-size: 27.5px;
+    color: #fff;
+    text-align: center;
+}
+.timetable__sections {
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    background-color: #1e1c26;
+    text-align: center;
+}
+.timetable__output {
+    overflow-y: auto;
+    width: 100%;
+    margin-top: 30px;
+    height: auto;
+    max-height: 250px;
+    background-color: #1e1c26;
+}
+
+.sections__list {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+.timetable__item {
+    font-size: 15px;
+    padding-top: 15px;
+    color: #fff;
+    flex: 1 1 auto;
+    cursor: pointer;
+    height: 100%;
+}
+.sections__list .active {
+    background-color: #4b475c;
+}
+
+.output__table {
+    margin: 5px auto;
+    width: 725px;
+}
+.output__table td, th {
+    color: #fff;
+    text-align: center;
+}
+
+.edit__btn {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+    cursor: pointer;
+}
+.bluer {
+    display: none;
+    position: fixed;
+    margin-top: -100px;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(7.5px);
+}
+.close__btn {
+    position: absolute;
+    background: none;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+    cursor: pointer;
+}
+tr {
+    height: 40px;
+}
+
+.edit__main {
+    width: 450px;
+    height: 240px;
+    display: none;
+    position: fixed;
+    top: 21%;
+    left: 50%;
+    margin-left: -225px;
+    z-index: 10;
+    border-radius: 6px;
+    background-color: #0a0422;
+}
+.edit__main h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+    font-size: 21.5px;
+}
+
+.edit__form {
+    margin: 15px;
+    line-height: 29px;
+    color: #fff;
+}
+.edit__form p {
+    font-size: 18px;
+}
+.edit__form input {
+    font-size: 17px;
+    width: 230px;
+    background-color: #e6ddec;
+    border: none !important;
+    padding: 1.5px 0 1.5px 4.5px;
+    border-radius: 3px;
+}
+
+.input__checkbox {  
+    margin-top: 3.5px;
+}
+.input__checkbox input {
+    width: 20px !important;
+}
+#edit__send__btn {
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5.5px;
+    padding: 6px;
+    font-size: 16.5px;
+    background-color: #4b475c;
+    color: #fff;
+}

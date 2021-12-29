@@ -1,0 +1,28 @@
+.kalk {
+    height: 420px;
+    width: 390px;
+    background-color: black;
+}
+.button {
+    width: 390px;
+    height: 300px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 90px);
+}
+.vivod {
+    width: 390px;
+    height: 110px;
+    }
+#inp_viv {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin-top: 5%;
+    font-size: 20px;
+}
+#viv_sp {
+    width: 100%;
+    color: #fff;
+    font-size: 40px;
+}
